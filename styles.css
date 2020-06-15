@@ -1,0 +1,262 @@
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, freesans,sans-serif;
+}
+
+/*ensures the site conent remains a fixed width & centered regardless of browser size*/
+.fixed-width{
+  width: 1000px; /*constant width of the content*/
+  margin: 0 auto; /*centers the content*/
+}
+
+/*Creating bold font formatting for the 'selected' location*/
+.bold{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.top-bar{
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  color: black; /* text colour */
+  
+}
+
+.top-bar ul{
+  margin: 0; /*removing white space from top*/
+  padding: 0;
+}
+
+.top-bar ul li{
+  float: left; /* removes stacking list*/
+  font-weight: bold;
+  font-size: 1.1 em;
+  list-style: none;
+  border-right: 1px solid #B4B4B4;
+  padding: 10.5px 20px 10.5px 20px;
+  
+}
+
+.top-bar ul li:hover{
+  text-decoration: underline;
+  text-decoration-color: #992211;
+  text-decoration-thickness: 10px;
+}
+
+.news-logo-bar{
+  background-color: #BB1919;
+  width: 100%;
+  height: 60px;
+  color: white;
+  
+}
+
+.news-logo-bar p {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  font-family: Arial;
+  position: relative;
+  right: 1px;
+}
+
+
+.category-bar{
+  background-color: #A91717;
+  width:100%;
+  height:30px;
+  color: white;
+  
+}
+
+.category-bar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category-bar ul li{
+  float: left;
+  font-family: Arial;
+  font-size: 0.9em;
+  border-right: 1px solid #BB4545;
+  position: relative;
+  right: 10px;
+  top: 3px;
+  padding: 2px 10px 2px 10px;
+}
+
+.category-bar ul li:hover{
+  border-bottom: 4px solid white;
+}
+
+.location-bar{
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  color: black;
+  
+}
+
+.location-bar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.location-bar ul li{
+  float: left;
+  font-family: Arial;
+  font-size: 0.8 em;
+  position: relative;
+  right: 5px;
+  top: 5px;
+  padding: 0px 12px 0px 12px;
+  border-right: 1px solid #B4B4B4;
+}
+
+.location-bar ul li:hover{
+  border-bottom: 5px solid #BB1919;
+}
+
+.content{
+  background-color: white;
+  width: 100%;
+  color: #000000;
+}
+
+.content h1{
+  width: 250px;
+  float: left;
+  margin-top: 0;
+}
+
+.content h1:hover{
+ text-decoration: underline;
+ color: #1380A1;
+}
+
+
+.content img{
+  float: right;
+  position: relative;
+  right: 300px;
+}
+
+
+.content p{
+  width: 237px;
+  color: #626262;
+  padding:;
+}
+
+.content a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  
+}
+
+.content-links ul{
+   margin-top: 60px;
+   position: relative;
+   right: 25px;
+}
+
+.content-links ul li {
+  margin-top: 10px;
+  line-height: 1em;
+  width: 250px;
+}
+
+.content-links a:hover {
+  text-decoration: underline;
+  color:#1380A1;
+}
+
+
+.article-sidebar{
+  float: right;
+  position: relative;
+  bottom: 390px;
+  right: 50px;
+  background: white;
+  
+}
+
+.article-sidebar a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.article-sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.article-sidebar ul li {
+  margin-top: 10px;
+  line-height: 1.2em;
+  width: 250px;
+  font-family: Arial;
+  font-size: 1.1em;
+  position: relative;
+  right: 5px;
+  top: 5px;
+  padding: 1px 0px 50px 0px;
+  border-bottom: 1px solid #B4B4B4;
+}
+
+.article-sidebar a:hover{
+  text-decoration: underline;
+  color: #1380A1;
+}
+
+#bbc-logo{
+  float: left;
+  padding-top: 6px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  border-right: 1px solid #B4B4B4
+ 
+  
+}
+
+#sign-in{
+  float: left; /*adding more elements to right after */
+  font-weight: bold;
+  font-size: 1.1 em;
+  padding: 9px 50px 9px 9px;
+  border-right: 1px solid #B4B4B4;
+}
+
+#sign-in ul li{
+  float: left;
+}
+
+#sign-in:hover{
+  text-decoration: underline;
+  text-decoration-color: #992211;
+  text-decoration-thickness: 10px;
+}
+
+
+#search-bar{
+  float: left;
+  width: 100px;
+  padding: 6px;
+}
+
+#search-bar input{
+  height: 20px;
+  padding-bottom: 2px;
+  background-image: url("http//static.bbci.co.uk/frameworks/barlesque/2.88.1/orb/4/img/orb-search-dark.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+}
